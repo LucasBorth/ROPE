@@ -12,4 +12,4 @@ pois a interface produzida por este projeto permite que o ROPE possa ser
 utilizado para o ensino de robótica e futuramente poderá ser integrada às 
 linguagens de programação por blocos para crianças, como o Scratch, que 
 permitirá que seja usado para o ensino de programação na educação infantil em 
-escolas públicas ou privada
+escolas pública ou privada
