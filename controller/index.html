@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ROPE Control</title>
+</head>
+<body>
+    <div id="joystick">
+        <h3>Joystick</h3>
+        <div id="joy_area">
+
+        </div>
+        <br>
+        <canvas id="area" width="200" height="200" style="border:solid black 1px;" >
+            Seu browser não tem suporte ao ROPE Control :(
+        </canvas>
+    </div>
+    <div id="menu">
+        <div id="cabecalho">
+            ROPE Control
+        </div>
+        <div id="control">
+            <h3>Dados</h3>
+            <div id="config">
+                <div id="config_tabela">
+                    <table cellspacing=0>
+                        <tr>
+                            <td colspan="2">Eixos</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                X
+                            </td>
+                            <td id="grauX">
+                                0º
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Y
+                            </td>
+                            <td id="grauY">
+                                0º
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="config_img">
+                    <img id="seta" src="src/imovel.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
